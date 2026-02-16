@@ -1,0 +1,12 @@
+{
+  "name": "top-analytics-scripts",
+  "private": true,
+  "scripts": {
+    "start:topWorkplaces": "ts-node --transpile-only src/scripts/top-workplaces.ts",
+    "start:topWorkers": "ts-node --transpile-only src/scripts/top-workers.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
